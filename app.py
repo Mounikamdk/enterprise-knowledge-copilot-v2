@@ -21,7 +21,7 @@ db = FAISS.from_documents(docs, embeddings)
 
 # OpenAI model
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="gpt-4o-mini",
     temperature=0,
     api_key=st.secrets["OPENAI_API_KEY"]
 )
